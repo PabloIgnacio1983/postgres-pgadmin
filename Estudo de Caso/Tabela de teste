@@ -1,0 +1,16 @@
+-- Table: mkt.TB_TESTE
+
+-- DROP TABLE IF EXISTS mkt."TB_TESTE";
+
+CREATE TABLE IF NOT EXISTS mkt."TB_TESTE"
+(
+    "ID" integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS mkt."TB_TESTE"
+    OWNER to postgres;
+
+COMMENT ON TABLE mkt."TB_TESTE"
+    IS 'Tabela de teste';
