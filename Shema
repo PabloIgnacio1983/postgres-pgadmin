@@ -1,0 +1,9 @@
+-- SCHEMA: mkt
+
+-- DROP SCHEMA IF EXISTS mkt ;
+
+CREATE SCHEMA IF NOT EXISTS mkt
+    AUTHORIZATION postgres;
+
+COMMENT ON SCHEMA mkt
+    IS 'Schema de acesso ao banco de dados';
